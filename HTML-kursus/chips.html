@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="ChipsCSS.css" type="text/css">
 </head>
 <body>
-    <img 
-    src="chipsbutterfly.png" 
-    alt="Butterfly med chips vinger"
-    width="5%"
-    height="5%"
-    style="float:left;">
-    <h1>Chips!</h1>
-    <p>Her er nogle facts om chips</p>
-    
-    <h2>Tabel over mest solgte chips</h2>
-    <table border="2" style="float:left;">
+   <div class="header">
+        <img 
+         src="chipsbutterfly.png" 
+         alt="Butterfly med chips vinger"
+         width="62"
+         height="63 "
+         style="float:left">
+        <h1 style="float:left">Chips!</h1>
+        <img 
+         src="chipsbutterfly.png" 
+         alt="Butterfly med chips vinger"
+         width="62"
+         height="63">
+         <p style="clear:both">Her er nogle facts om chips</p>
+    </div>
+   
+
+    <h2 id="tabeloversigt">Tabel over mest solgte chips</h2>
+    <table class="tborder"  style="float:left;">
         <thead>
             <tr bgcolor="E2E2E2">
                 <th>Brand</th>
@@ -43,6 +52,8 @@
             </tfoot>
         </tbody>   
     </table>
+
+
 
     <img src="Transparentchipspose.png" 
     alt="En pose chips"
