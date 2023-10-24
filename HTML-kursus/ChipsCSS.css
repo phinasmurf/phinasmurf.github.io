@@ -40,14 +40,15 @@
     margin: 0 auto;
 }
 
-.centeredimg{
+#centeredimg{
     margin: auto;
-    width: 120px;
+    width: 85px;
 }
 
-.centeredimg2{
+#centeredimg2{
     margin: right;
-    width: 200px;
+    margin-left: 50px;
+    width: 200x;
 }
 
 .ytvid{

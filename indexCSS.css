@@ -1,0 +1,32 @@
+.ddog{
+    margin: 20px auto;
+    border: 10px;
+}
+
+body{
+    background-color: #c2cbd2;
+}
+
+.center{
+    color: rgb(12, 41, 51);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hi{
+    margin: 0 auto;
+    width: 400px;
+    font-size: xx-large;
+    padding-top: 20px;
+     width: 100px;
+    height: 100px;
+    transform: rotate(deg);
+}
+
+.hi{    
+    margin: 0px auto;
+    width: 500;
+}
+
+.CatGIF{
+   
+}
