@@ -22,7 +22,7 @@ body{
     height: 238px; width: 190px;
 }
 
-@media (max-width 390px) {
+@media (max-width: 390px) {
     .midte{
         flex-direction: column;
     }
