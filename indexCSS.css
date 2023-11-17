@@ -84,6 +84,9 @@ body{
     color: rgb(44, 70, 62);
     border-radius: 15px;
     padding: 6px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 20px;
 }
 
 #worklist{
@@ -91,10 +94,8 @@ body{
     justify-content: center;
 }
 
-.-btn-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.btns{
+    margin: 10px;
 }
 
 a:link, a:visited{
@@ -117,7 +118,7 @@ a:hover, a:active{
 
 .softpink li::before{
     content: "\2022";
-    color: rgb(131, 84, 112);
+    color: rgb(161, 107, 139);
     font-weight: bold;
     display: inline-block;
     width: 1em;
