@@ -71,7 +71,6 @@ h1, h2, p{
 
 .ytvid{
     display: flex;
-    align-items: center;
     
     border-right: 6px solid #A8D7FA;
     border-bottom: 6px solid #A8D7FA;
@@ -86,7 +85,7 @@ h1, h2, p{
     from{
     transform: rotate3d(0deg);}
     to{
-        transform: rotate3d(359deg)
+    transform: rotate3d(359deg)
     }
     
 }

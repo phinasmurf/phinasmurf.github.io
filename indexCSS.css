@@ -13,6 +13,7 @@ body{
     background-color: #f1bd7c;
     display: flex;
     justify-content: center;
+    background: linear-gradient(150deg, #f1bd7c, #f3addc);
 }
 
 .hi{
@@ -47,7 +48,7 @@ body{
 }
 
 .swing{
-    border: 10px solid #f8f8f8;
+    border: 10px solid #bdc0bd;
 }
 
 .swing:after{
@@ -87,6 +88,7 @@ body{
     justify-content: space-around;
     align-items: flex-start;
     padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #worklist{
