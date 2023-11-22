@@ -125,3 +125,14 @@ a:hover, a:active{
     display: inline-block;
     width: 1em;
 }
+
+.center{
+    transform:prespective(1000px) translate(-50%,-50%);
+    transform:skewY(15deg);
+    transition:0.5s;
+}
+
+.center:hover{
+    transform:prespective(1000px) translate(-50%,-50%);
+    transform:skewY(0deg);
+  }
