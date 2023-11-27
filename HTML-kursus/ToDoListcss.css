@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(150deg, #5A94AE, #5AAE6A);
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+} 
+
+
+.container{
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.todo-app{
+    max-width: 100%;
+    max-width: 540px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    margin-top: 80px;
+    padding: 40px 400px 40px 30px;
+}
+
+#input-box{
+    border: none;
+    background-color: whitesmoke;
+}
