@@ -32,7 +32,45 @@ body{
     padding: 40px 400px 40px 30px;
 }
 
-#input-box{
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(187, 191, 194);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
     border: none;
     background-color: whitesmoke;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
 }
+
+button{
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    background-color: rgb(36, 220, 168);
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 0px;
+    cursor: pointer;
+}
+
+ul li::before{
+    /* Jeg er nået til 10:45 i videoen*/
+}
+
