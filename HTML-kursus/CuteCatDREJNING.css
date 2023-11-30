@@ -1,0 +1,15 @@
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(364deg);
+    }
+}
+
+.aleksander{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    
+}

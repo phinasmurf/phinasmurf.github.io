@@ -68,9 +68,19 @@ ul li{
     font-size: 17px;
     padding: 12px 8px 12px 0px;
     cursor: pointer;
+    position: relative;
 }
 
 ul li::before{
-    /* Jeg er nået til 10:45 i videoen*/
+    content: none;
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(/Images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 28px;
 }
 
