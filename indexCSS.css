@@ -98,6 +98,8 @@ body{
 
 .btns{
     margin: 10px;
+    min-width: 10%;
+    min-height: 10%;
 }
 
 a:link, a:visited{
