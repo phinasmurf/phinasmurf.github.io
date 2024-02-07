@@ -1,13 +1,35 @@
 body{
     background-color: #f0b3c5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.flex{
+   
+}
+
 
 h1{
     display: flex;
     justify-content: center;
 }
+
 .valentines{
     color: #662327;
     font-family: Brush Script MT;
     font-size: 75px;
+    padding-top: 20px;
+}
+
+.button{
+
+    
+
+   /* Colour n layout
+    background-color: #aaebb8;
+    border: none;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    */
 }
