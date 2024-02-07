@@ -26,8 +26,8 @@ listContainer.addEventListener("click", function(e){
    
 
     else if(e.target.tagName === "SPAN"){
-        e.target.parentElement.Remove();
-        savedata();
+        e.target.parentElement.Remove(savedata());
+        ;
     }
 }, false);
 

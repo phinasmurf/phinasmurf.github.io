@@ -10,10 +10,11 @@ h1, h2, p, ul{
 }
 
 body{
-    background-color: #f1bd7c;
+    
     display: flex;
     justify-content: center;
-    background: linear-gradient(150deg, #f1bd7c, #f3addc);
+    background: repeating-linear-gradient(150deg, #f1bd7c, #f3addc);
+    
 }
 
 .hi{
@@ -56,7 +57,7 @@ body{
     content: '';
     position: absolute;
     width: 20px; height: 20px;  
-    border: 1px solid rgb(95, 89, 88);
+    border: 1px solid rgb(73, 67, 66);
     top: -10px; left: 50%;
     z-index: 0;
     border-bottom: none;
@@ -141,4 +142,10 @@ a:hover, a:active{
   .center:active{
     transform:prespective(1000px) translate(-50%,-50%);
     transform:skewY(0deg); 
+  }
+
+  .toolbar{
+    background-color: aliceblue;
+    height: 10%;
+    display: block;
   }
