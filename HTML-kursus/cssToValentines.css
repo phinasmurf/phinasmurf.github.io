@@ -6,7 +6,6 @@ body{
 }
 
 .flex{
-   
 }
 
 
@@ -24,7 +23,7 @@ h1{
 
 .button{
 
-    
+    width: 50px;
 
    /* Colour n layout
     background-color: #aaebb8;
