@@ -6,7 +6,56 @@ h1, h2, p, ul{
 .flex{
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+}
+
+.meBubble{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+
+    background-color: rgb(52, 59, 52);
+    border-radius: 50px;
+    width: 80px;   
+    transition: width 2s;
+    margin-left: 85px;
+}
+
+.meBubble:hover{
+    width: 300px;
+    transition-duration: 1500ms;
+}
+
+.meBubble:hover #InformationText {
+    color: rgb(255, 255, 255); /* make the text visible when .meBubble is hovered over */
+    font-size: 20px;
+    width: 300px;
+    transition-duration: 1500ms;
+    padding-left: 95px;
+}
+#InformationText:hover{
+    transition-duration: 1300ms;
+}
+
+#PFP{
+    display: flex; 
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    transition: width 2s;
+    transition-timing-function: ease-in-out; 
+    position: relative;
+}
+
+#InformationText{
+    position:absolute;
+    color: transparent; 
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-left: 25px;
+    padding-top: 10px;
 }
 
 body{ 
@@ -85,11 +134,7 @@ body{
     color: rgb(44, 70, 62);
     border-radius: 15px;
     padding: 6px;
-    justify-content: space-around;
-    align-items: flex-start;
     padding-bottom: 20px;
-    margin-bottom: 40px;
-    min-height: 100vh;
 }
 
 #worklist{

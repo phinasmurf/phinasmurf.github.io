@@ -4,7 +4,7 @@ const listContainer = document.getElementById("list-container")
 function AddTask(){
     if(inputBox.value ===''){
         alert("You must write something!")
-    }
+    }  
 
     else{
         let li = document.createElement("li");
