@@ -33,7 +33,7 @@ h1, h2, p, ul{
     padding-left: 95px;
 }
 #InformationText:hover{
-    transition-duration: 1900ms;
+    transition-duration: 1500ms;
 }
 
 #InformationText{
@@ -45,6 +45,7 @@ h1, h2, p, ul{
     align-items: center; 
     padding-left: 80px;
     padding-top: 10px;
+    transition-delay: 120ms;
 }
 
 #PFP{
@@ -207,5 +208,9 @@ a:hover, a:active{
 
     .btnlist{
         padding: 20px;
+    }
+
+    .btns{
+        margin: 10px;
     }
 }
