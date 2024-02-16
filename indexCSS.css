@@ -29,11 +29,22 @@ h1, h2, p, ul{
     color: rgb(255, 255, 255); /* make the text visible when .meBubble is hovered over */
     font-size: 20px;
     width: 300px;
-    transition-duration: 1500ms;
+    transition-duration: 3s;
     padding-left: 95px;
 }
 #InformationText:hover{
-    transition-duration: 1300ms;
+    transition-duration: 1900ms;
+}
+
+#InformationText{
+    position:absolute;
+    color: transparent; 
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-left: 80px;
+    padding-top: 10px;
 }
 
 #PFP{
@@ -45,17 +56,6 @@ h1, h2, p, ul{
     transition: width 2s;
     transition-timing-function: ease-in-out; 
     position: relative;
-}
-
-#InformationText{
-    position:absolute;
-    color: transparent; 
-    font-size: 10px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
-    padding-left: 25px;
-    padding-top: 10px;
 }
 
 body{ 
