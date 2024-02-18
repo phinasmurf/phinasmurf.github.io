@@ -239,7 +239,7 @@ a:hover, a:active{
   }
 
 /* Width and lengths for phones */
-@media (max-width: 1170px) {
+@media (max-width: 1200px) {
     .body{
         padding: 20px;
     }
@@ -248,10 +248,11 @@ a:hover, a:active{
         margin-left: 0px;
     }
 
-    .btnlist{
-        padding: 20px;
+    .btnlist{ 
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        max-width: fit-content;
     }
 
     .btns{
@@ -264,5 +265,5 @@ a:hover, a:active{
         display: flex;
         justify-content: center;
         width: 100%;
-    }
+    } 
 }
