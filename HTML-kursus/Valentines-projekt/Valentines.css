@@ -60,3 +60,21 @@ body{
     margin-top: 40px;
     width: 200px;
 }
+
+@media (max-width: 600px){
+    .valentines{
+        font-size: 50px;
+    }
+    #yes-button{
+        font-size: 30px;
+    }
+    #no-button{
+        font-size: 30px;
+    }
+    .button-container{
+        font-size: 50px;
+    }
+    #MilkyOnHeart{
+        width: 100px;
+    }
+}
