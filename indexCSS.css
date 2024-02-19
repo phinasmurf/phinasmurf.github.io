@@ -63,7 +63,7 @@ h1, h2, p, ul{
     border-radius: 50px;
     width: 80px;   
     transition: width 2s;
-    margin-left: 640px;
+    margin-left: 320px;
 }
 
 .meBubble:hover{
