@@ -44,8 +44,7 @@ h1, h2, p, ul{
 
 #headerAtag{
     color: rgb(198, 235, 208);
-    background-color: #737973;
-
+    background-color: #56c056;
     margin-left: 50px;
 }
 
@@ -196,7 +195,8 @@ h1, h2, p, ul{
     align-items: center;
 }
 
-a:link, a:visited{
+/* VALENTINES STED SKAL FIKSES HER!! */
+.btns:link, .btns:visited{
     color: rgb(150, 192, 163);
     text-decoration: none;
     background-color: rgb(24, 59, 51);
@@ -205,7 +205,7 @@ a:link, a:visited{
     margin: 3px;
 }
 
-a:hover, a:active{
+.btns:hover, .btns:active{
     color: rgb(231, 160, 160);
     text-decoration: dashed;
 }
