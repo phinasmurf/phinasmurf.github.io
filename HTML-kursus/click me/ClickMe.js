@@ -14,8 +14,8 @@ function buttonpressed(x) {
    }
 
 
-   // var width = Math.random() * window.innerWidth;
-   // var length = Math.random() * window.innerlength;
+   var width = Math.random() * window.innerWidth;
+   var length = Math.random() * window.innerlength;
 
    this.style.left = width + "px";
    this.style.top = length + "px";
